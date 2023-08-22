@@ -1,0 +1,12 @@
+.btn {
+    background: none;
+    border: none; /* Remove borders */
+    color: darkgray; /* White text */
+    padding: 12px 10px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+}
+
+.btn:hover {
+    color: white;
+}
