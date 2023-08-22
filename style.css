@@ -1,12 +1,57 @@
+body {
+    font-family: 'Franklin Gothic Light', sans-serif;
+    letter-spacing: 0.06rem;
+}
+
+nav, 
+.nav-links {
+    display: flex;
+}
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 12vh;
+}
+
+.nav-links {
+    gap: 1.5rem;
+    list-style: none;
+    font-size: 1.1rem;
+}
+
+a {
+    color: darkgray;
+    
+}
+
+a:hover {
+    color: cornflowerblue;
+    text-decoration: underline;
+    text-decoration-thickness: 0.2rem;
+    text-underline-offset: 0.4rem;
+}
+
+#buttons {
+    display: flex;
+    gap: 0.5rem;
+}
+
 .btn {
     background: none;
     border: none; /* Remove borders */
     color: darkgray; /* White text */
-    padding: 12px 10px; /* Some padding */
     font-size: 16px; /* Set a font size */
     cursor: pointer; /* Mouse pointer on hover */
 }
 
 .btn:hover {
-    color: white;
+    color: cornflowerblue;
+}
+
+#headshot {
+    border-radius: 50%; 
+    width: 50px; 
+    height: 50px;
+    padding: 10px;
 }
