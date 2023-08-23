@@ -21,8 +21,9 @@ nav {
 }
 
 a {
+    text-decoration: none;
     color: darkgray;
-    
+    transition: all 0.1s ease; 
 }
 
 a:hover {
@@ -41,6 +42,7 @@ a:hover {
     background: none;
     border: none; /* Remove borders */
     color: darkgray; /* White text */
+    transition: color 0.5s ease;
     font-size: 16px; /* Set a font size */
     cursor: pointer; /* Mouse pointer on hover */
 }
@@ -55,3 +57,4 @@ a:hover {
     height: 50px;
     padding: 10px;
 }
+
