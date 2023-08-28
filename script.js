@@ -9,3 +9,7 @@ function openGithub() {
 function openEmail() {
     window.open("mailto:alexandergeorgeklein@gmail.com");
 }
+
+function downloadResume() {
+    window.download = (assets/klein.alexander.resume);
+}
