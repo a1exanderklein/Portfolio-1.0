@@ -19,11 +19,19 @@
             </ul>
         </div>
         <div id="buttons">
-            <button class="btn" onclick=openLinkedIn()><i class="fa fa-linkedin-square" style="font-size:24px"></i></button>
-            <button class="btn" onclick=openGithub()><i class="fa fa-github" style="font-size:24px"></i></button>
-            <button class="btn" onclick=openEmail()><i class="fa-solid fa-file-lines" style="font-size:22px"></i></button>
+            <button class="btn" title="LinkedIn" onclick=openLinkedIn()><i class="fa fa-linkedin-square" style="font-size:24px"></i></button>
+            <button class="btn" title="Github" onclick=openGithub()><i class="fa fa-github" style="font-size:24px"></i></button>
+            <button class="btn" title="Email" onclick=openEmail()><i class="fa-solid fa-file-lines" style="font-size:22px"></i></button>
             <img id="headshot" src="assets/headshot.png" alt="Headshot">
         </div>
     </nav>
+    <div id="resume-highlight">
+        <div class="image-container">
+            <img id="resume-image" src="assets/resume.jpg" alt="Resume">
+            <div class="overlay">
+                <button class="download-btn" onclick=downloadResume()>Download</button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
