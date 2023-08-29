@@ -12,12 +12,12 @@ function openEmail() {
 
 function downloadResume() {
     // URL of the PDF file
-    const pdfUrl = 'assets/klein.alexander.resume.pdf';
+    const pdfUrl = 'assets/klein_alexander_resume.pdf';
     
     // Create a temporary <a> element to trigger the download
     const downloadLink = document.createElement('a');
     downloadLink.href = pdfUrl;
-    downloadLink.download = 'klein.alexander.resume.pdf'; // Specify the filename
+    downloadLink.download = 'klein_alexander_resume.pdf'; // Specify the filename
     
     // Simulate a click on the link to trigger the download
     document.body.appendChild(downloadLink);
