@@ -1,6 +1,7 @@
 body {
     font-family: 'Franklin Gothic Light', sans-serif;
     letter-spacing: 0.06rem;
+    margin: 0;
 }
 
 nav, 
@@ -9,7 +10,9 @@ nav,
 }
 
 nav {
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-left: 6vw;
+    margin-right: 6vw;
     align-items: center;
     height: 12vh;
 }
@@ -138,4 +141,23 @@ a:hover {
     border-width: 3px;
     background-color: white;
     transition: all 0.3s ease;
+}
+
+.profile {
+    justify-content: space-around;
+}
+
+#heading-name {
+    margin-top: 20vh;
+    justify-content: space-around;
+    font-size: 45px;
+    color: cornflowerblue;
+}
+
+#about {
+    top: 10vh;
+    width: 100vw;;
+    color: white;
+    font-size: 30px;
+    background-color: cornflowerblue;
 }
