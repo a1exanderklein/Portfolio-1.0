@@ -148,16 +148,23 @@ a:hover {
 }
 
 #heading-name {
-    margin-top: 20vh;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    margin-top: 10vh;
     justify-content: space-around;
     font-size: 45px;
     color: cornflowerblue;
 }
 
 #about {
-    top: 10vh;
-    width: 100vw;
+    background-color: cornflowerblue;
+    padding: 4vh 6vw; 
+}
+
+#about-text {
     color: white;
     font-size: 30px;
-    background-color: cornflowerblue;
+    text-align: justify;
+    overflow-wrap: break-word;
+    max-width: 100%;
 }
