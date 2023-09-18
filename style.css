@@ -168,3 +168,55 @@ a:hover {
     overflow-wrap: break-word;
     max-width: 100%;
 }
+
+/* PROJECTS */
+
+.project-boxes {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+#minesweeper {
+    box-shadow: 0 0 50px cornflowerblue;
+    width: 20%; /* Adjust the width as needed */
+    padding: 20px;
+    text-align: center;
+    border-radius: 5%;
+    font-family: 'Franklin Gothic Light', sans-serif;
+    font-size: 25px;
+}
+
+#minesweeper-img {
+    width: 30%;
+}
+
+#gymlink {
+    box-shadow: 0 0 50px #7454de;
+    width: 20%; /* Adjust the width as needed */
+    padding: 20px;
+    text-align: center;
+    border-radius: 5%;
+    font-family: 'Franklin Gothic Light', sans-serif;
+    font-size: 25px;
+    color: #7454de;
+}
+
+#gymlink-img {
+    width: 80%;
+}
+
+#sudoku {
+    box-shadow: 0 0 50px cornflowerblue;
+    width: 20%; /* Adjust the width as needed */
+    padding: 20px;
+    text-align: center;
+    border-radius: 15%;
+    font-family: 'Franklin Gothic Light', sans-serif;
+    font-size: 25px;
+}
+
+#sudoku-img {
+    width: 40%;
+
+}
