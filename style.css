@@ -164,59 +164,128 @@ a:hover {
 #about-text {
     color: white;
     font-size: 30px;
-    text-align: justify;
+    text-align: left;
     overflow-wrap: break-word;
     max-width: 100%;
 }
 
 /* PROJECTS */
 
-.project-boxes {
-    display: flex;
+.project-highlights {
     justify-content: space-around;
-    padding: 100px;
-}
-
-#minesweeper {
-    box-shadow: 0 0 50px cornflowerblue;
-    width: 20%; /* Adjust the width as needed */
-    padding: 20px;
-    text-align: center;
-    border-radius: 5%;
-    font-family: 'Franklin Gothic Light', sans-serif;
-    font-size: 25px;
-}
-
-#minesweeper-img {
-    width: 30%;
 }
 
 #gymlink {
-    box-shadow: 0 0 50px #7454de;
-    width: 20%; /* Adjust the width as needed */
-    padding: 20px;
-    text-align: center;
-    border-radius: 5%;
-    font-family: 'Franklin Gothic Light', sans-serif;
-    font-size: 25px;
-    color: #7454de;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    margin-top: 5vh;
+    justify-content: space-around;
+    font-size: 45px;
+    color: cornflowerblue;
 }
 
-#gymlink-img {
-    width: 80%;
+#gymlink-header {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-bottom: -5vh;
+}
+
+/* #logos {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+#logos img {
+    margin-right: 20px;
+    width: 15%;
+} */
+
+
+
+#minesweeper {
+    background-color: cornflowerblue;
+    padding: 4vh 6vw; 
+    color: white;
+    font-size: 45px;
+    text-align: left;
+    overflow-wrap: break-word;
+    max-width: 100%;
+}
+
+#minesweeper-header {
+    vertical-align: center;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-bottom: -5vh;
+
 }
 
 #sudoku {
-    box-shadow: 0 0 50px cornflowerblue;
-    width: 20%; /* Adjust the width as needed */
-    padding: 20px;
-    text-align: center;
-    border-radius: 15%;
-    font-family: 'Franklin Gothic Light', sans-serif;
-    font-size: 25px;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    margin-top: 10vh;
+    justify-content: space-around;
+    font-size: 45px;
+    color: cornflowerblue;
 }
 
-#sudoku-img {
-    width: 40%;
+#sudoku-header {
+    vertical-align: center;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-bottom: -5vh;
 
+}
+
+.github-links {
+    cursor: pointer;
+    border: cornflowerblue;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 15px;
+    padding: 2vh 3vw ;
+    background-color: transparent;
+    font-family: 'Franklin Gothic Light', sans-serif;
+    font-size: 30px;
+    color: cornflowerblue;
+    transition: all 0.2s ease;
+}
+
+.github-links:hover {
+    text-decoration: none;
+    color: darkorange;
+    border: darkorange;
+    border-style: solid;
+    border-width: 5px;
+    background-color: white;
+    transition: all 0.3s ease;
+}
+
+#github-links-blue {
+    cursor: pointer;
+    border: white;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 15px;
+    padding: 2vh 3vw ;
+    background-color: transparent;
+    font-family: 'Franklin Gothic Light', sans-serif;
+    font-size: 30px;
+    color: white;
+    transition: all 0.2s ease;
+}
+
+#github-links-blue:hover {
+    text-decoration: none;
+    color: darkorange;
+    border: darkorange;
+    border-style: solid;
+    border-width: 5px;
+    background-color: white;
+    transition: all 0.3s ease;
 }
